@@ -1,4 +1,4 @@
-baseurl = "http://www.joanpujol.cat"
+baseurl = "https://www.joanpujol.cat"
 title = "Joan Pujol"
 theme = "hugo-coder"
 languagecode = "en"
