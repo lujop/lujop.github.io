@@ -11,8 +11,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
-
 [params]
     author = "Joan Pujol"
     info = "Software Engineer"
@@ -23,7 +21,7 @@ disqusShortname = "yourdiscussshortname"
     favicon_32 = "/images/favicon-32x32.png"
     favicon_16 = "/images/favicon-16x16.png"
 
-    footercontent = "God is in the detail / The devil is in the details"
+    footercontent = "God is in the detail / Devil is in the details <a href='https://en.wiktionary.org/wiki/devil_is_in_the_details#English' target='_blank'>( * )</a>" 
 
     hidecredits = false
     hidecopyright = false
@@ -59,6 +57,22 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-twitter fa-2x"
     weight = 3
     url = "https://twitter.com/lujop"
+
+
+[languages]
+    [languages.en]
+        languageName = "English"
+
+    [languages.ca]
+        languageName = "Català"
+        info = "Enginyer Software"      
+        footercontent = "Déu està en els detalls / El dimoni està en els detalls <a href='https://en.wiktionary.org/wiki/devil_is_in_the_details#English' target='_blank'>( * )</a>"         
+
+    [languages.es]
+        languageName = "Castellano"
+        info = "Ingeniero Software" 
+        footercontent = "Dios está en los detalles / El demonio está en los detalles <a href='https://en.wiktionary.org/wiki/devil_is_in_the_details#English' target='_blank'>( * )</a>"  
+
 
 # Menu links
 #[[menu.main]]
